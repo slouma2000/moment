@@ -10,10 +10,10 @@
 
 
     var fr = moment.defineLocale('fr', {
-        months : 'janvier_février_mars_avril_mai_juin_juillet_août_septembre_octobre_novembre_décembre'.split('_'),
-        monthsShort : 'janv._févr._mars_avr._mai_juin_juil._août_sept._oct._nov._déc.'.split('_'),
-        weekdays : 'dimanche_lundi_mardi_mercredi_jeudi_vendredi_samedi'.split('_'),
-        weekdaysShort : 'dim._lun._mar._mer._jeu._ven._sam.'.split('_'),
+        months : 'Janvier_Février_Mars_Avril_Mai_Juin_Juillet_Août_Septembre_Octobre_Novembre_Décembre'.split('_'),
+        monthsShort : 'Janv._Févr._Mars_Avr._Mai_Juin_Juil._Août_Sept._Oct._Nov._Déc.'.split('_'),
+        weekdays : 'Dimanche_Lundi_Mardi_Mercredi_Jeudi_Vendredi_Samedi'.split('_'),
+        weekdaysShort : 'Dim._Lun._Mar._Mer._Jeu._Ven._Sam.'.split('_'),
         weekdaysMin : 'Di_Lu_Ma_Me_Je_Ve_Sa'.split('_'),
         longDateFormat : {
             LT : 'HH:mm',
@@ -32,18 +32,18 @@
             sameElse: 'L'
         },
         relativeTime : {
-            future : 'dans %s',
-            past : 'il y a %s',
-            s : 'quelques secondes',
-            m : 'une minute',
+            future : 'Dans %s',
+            past : 'Il y a %s',
+            s : 'Quelques secondes',
+            m : 'Une minute',
             mm : '%d minutes',
-            h : 'une heure',
+            h : 'Une heure',
             hh : '%d heures',
-            d : 'un jour',
+            d : 'Un jour',
             dd : '%d jours',
-            M : 'un mois',
+            M : 'Un mois',
             MM : '%d mois',
-            y : 'un an',
+            y : 'Un an',
             yy : '%d ans'
         },
         ordinalParse: /\d{1,2}(er|)/,
